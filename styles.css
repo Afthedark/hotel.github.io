@@ -6,7 +6,7 @@
     margin: 0;
 }
 .header-services{
-    background-image: url("./img/poolside-bar.jpeg");
+    background-image: url("./img/hotel.02.jpg");
     background-position: center;
     background-size: cover;
     width: auto;
@@ -23,9 +23,11 @@
 .services-header-links{
     padding: 4rem;
     background: transparent;
+    
 }
 .services-header-links > ul{
     background: transparent ;
+    
 }
 .nav-services{
     background: transparent;
@@ -34,11 +36,15 @@
     background:transparent;
 }
 .services-links{
-    color: white;
+    color: black;
     background: transparent;
+    border: 1px solid black;
+    margin: 1rem;
 }
 .services-links:hover{
-    color: black ;
+    color: #E0B973 ;
+    border: 1px solid white;
+    background-color: black;
 }
 .services-content{
     background: transparent;
@@ -96,10 +102,12 @@
 }
 .facilities{
     font-size: 60px;
+    font-family: 'Garamond';
+    font-weight: 6  00;
 }
 .services-info > p {
     font-size: 22px;
-    padding: 4rem;
+    padding: 4rem 7rem;
     margin: 0 auto;
 }
 .services-image-products{
@@ -108,6 +116,7 @@
     flex-direction: column;
     gap: 4rem;
     padding: 0 4rem;
+    margin: 2rem 0;
 }
 .first-image{
     display: flex;
@@ -117,6 +126,7 @@
 .first-image > img{
     object-fit: cover;
     width: 950px;
+    height: 700px;
 }
 .name-services-product{
     margin-top: -3.2rem;
