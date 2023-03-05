@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header-services{
+    background-image: url("./img/poolside-bar.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 800px;
+}
+.content-services{
+    background-color: transparent;
+}
+.services-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.services-header-links{
+    padding: 4rem;
+    background: transparent;
+}
+.services-header-links > ul{
+    background: transparent ;
+}
+.nav-services{
+    background: transparent;
+}
+.nav-li-services{
+    background:transparent;
+}
+.services-links{
+    color: white;
+    background: transparent;
+}
+.services-links:hover{
+    color: black ;
+}
+.services-content{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.services-content-details{
+    background: transparent;
+    margin-right: 10rem;
+}
+.services-content-details h3{
+    font-size: 32px;
+    background: transparent;
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.services-content-details h2{
+    font-size: 44px;
+    background: transparent;
+    color: white;
+    font-family: 'Garamond';
+}
+.services-content-details h1{
+    font-size: 108px;
+    background: transparent;
+    color: white;
+    
+    letter-spacing: .8rem;
+    font-family: 'Garamond';
+}
+.services-content-details p{
+    width: 500px;
+    color: white;
+}
+.services-content-details-btn{
+    background: transparent;
+}
+.services-content-details-btn > button{
+    background-color: #E0B973;
+    color: white;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.services-info{
+    text-align: center;
+    margin: 2rem;
+}
+.facilities{
+    font-size: 60px;
+}
+.services-info > p {
+    font-size: 22px;
+    padding: 4rem;
+    margin: 0 auto;
+}
+.services-image-products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 4rem;
+}
+.first-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.first-image > img{
+    object-fit: cover;
+    width: 950px;
+}
+.name-services-product{
+    margin-top: -3.2rem;
+    color: black;
+    background-color: white;
+    padding: 0 6rem ;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+}
