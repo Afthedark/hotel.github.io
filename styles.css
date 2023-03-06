@@ -137,3 +137,17 @@
     font-weight: 700;
     font-size: 36px;
 }
+/* style BRAYAN*/
+.contenedor {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+  }
+  .texto{
+   font-size: 100px;
+  }
+  .texto-contenido{
+   font-size: 30px;
+   text-shadow: 0cap;
+  }
+  /* style BRAYAN*/
