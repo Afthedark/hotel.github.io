@@ -18,6 +18,27 @@
    font-size: 30px;
    text-shadow: 0cap;
   }
+  .texto-borde {
+    /* -webkit-text-stroke: 2px black;
+    color: transparent;  */
+  
+    text-align:center; 
+  color: #e8e48a;
+  
+  font-family: impact;
+  font-size: 70px;
+  letter-spacing: 0;
+  text-shadow: -3px -3px 3px #59a9d7, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+  }
+  .texto-segundario{
+    text-align:center; 
+  color: #ffffff;
+  
+  font-family: Sriracha;
+  font-size: 40px;
+  letter-spacing: 2PX;
+  text-shadow: -3px -3px 3px #59a9d7, 3px -3px 3px #000000, -3px 3px 3px #2d2d5a, 3px 3px 3px #0000DF;
+  }
   /* style BRAYAN*/
 
   /* style CARLA*/
