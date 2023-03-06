@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* .header-services{
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 800px;
+}
+.content-services{
+    background-color: transparent;
+}
+.services-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.services-header-links{
+    padding: 4rem;
+    background: transparent;
+    
+}
+.services-header-links > ul{
+    background: transparent ;
+    
+}
+.nav-services{
+    background: transparent;
+}
+.nav-li-services{
+    background:transparent;
+}
+.services-links{
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+    margin: 1rem;
+}
+.services-links:hover{
+    color: #E0B973 ;
+    border: 1px solid white;
+    background-color: black;
+}
+.services-content{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+} */
+
+/* .services-content-details{
+    background: transparent;
+    margin-right: 10rem;
+}
+.services-content-details h3{
+    font-size: 32px;
+    background: transparent;
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.services-content-details h2{
+    font-size: 44px;
+    background: transparent;
+    color: white;
+    font-family: 'Garamond';
+}
+.services-content-details h1{
+    font-size: 108px;
+    background: transparent;
+    color: white;
+    letter-spacing: .8rem;
+    font-family: 'Garamond';
+}
+.services-content-details p{
+    width: 500px;
+    color: white;
+}
+.services-content-details-btn{
+    background: transparent;
+}
+.services-content-details-btn > button{
+    background-color: #E0B973;
+    color: white;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+} */
+
+.room-content{
+    padding:4rem ;
+}
+.img-room-content{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+    align-items: center;
+    display: block;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.services-info{
+    text-align: center;
+    margin: 2rem;
+}
+.facilities{
+    font-size: 60px;
+    font-family: 'Garamond';
+    font-weight: 600;
+}
+.services-info > p {
+    font-size: 22px;
+    padding: 4rem 7rem;
+    margin: 0 auto;
+}
+.services-image-products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 4rem;
+    margin: 2rem 0;
+}
+.first-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.first-image > img{
+    object-fit: cover;
+    width: 950px;
+    height: 700px;
+}
+.name-services-product{
+    margin-top: -3.2rem;
+    color: black;
+    background-color: white;
+    padding: 0 6rem ;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+}
+/* style BRAYAN*/
+.contenedor {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 2rem;
+  }
+  .texto{
+   font-size: 100px;
+  }
+  .texto-contenido{
+   font-size: 30px;
+   text-shadow: 0cap;
+  }
+  /* style BRAYAN*/
+.title-habitaciones{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Garamond';
+    font-weight: 600;
+    padding-top: 2rem;
+}
+.icon-links{
+    margin-right: 1rem;
+}
+@media (max-width: 900px) {
+    .room-content{
+        padding: 1rem ;
+    }
+    .services-info{
+        margin: 0;
+    }
+    .facilities{
+        font-size: 36px;
+    }
+    .services-info > p{
+        padding: .5rem 1rem;
+    }
+    .services-image-products{
+        padding: 0 1rem;
+        margin: .5rem 0;
+    }
+    .first-image > img {
+        width: 600;
+        height: 450px;
+    }
+    .name-services-product{
+        font-size: 24px;
+        padding: 0 2rem;
+        margin-top: -2rem;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .room-content{
+        padding: 0;
+    }
+    .facilities{
+        font-size: 20pxpx;
+    }
+    .services-info > p{
+        padding: 0 .5rem;
+    }
+    .services-image-products{
+        padding: 0;
+        margin: 0;
+    }
+    .first-image > img {
+        width: 300;
+        height: 200px;
+    }
+    .name-services-product{
+        font-size: 18px;
+        padding: 0;
+        margin-top: -1.2rem;
+    }
+}
