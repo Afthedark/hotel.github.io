@@ -1,3 +1,14 @@
+span {
+  color: #007bff;
+}
+
+p {
+  color: #38f5a3;
+}
+
+h2 {
+  color: #0dcaf0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;500;600;700&display=swap');
 * {
@@ -5,96 +16,6 @@
     padding: 0;
     margin: 0;
 }
-/* .header-services{
-    background-image: url("");
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: 800px;
-}
-.content-services{
-    background-color: transparent;
-}
-.services-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.services-header-links{
-    padding: 4rem;
-    background: transparent;
-    
-}
-.services-header-links > ul{
-    background: transparent ;
-    
-}
-.nav-services{
-    background: transparent;
-}
-.nav-li-services{
-    background:transparent;
-}
-.services-links{
-    color: black;
-    background: transparent;
-    border: 1px solid black;
-    margin: 1rem;
-}
-.services-links:hover{
-    color: #E0B973 ;
-    border: 1px solid white;
-    background-color: black;
-}
-.services-content{
-    background: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-} */
-
-/* .services-content-details{
-    background: transparent;
-    margin-right: 10rem;
-}
-.services-content-details h3{
-    font-size: 32px;
-    background: transparent;
-    color: white;
-    font-size: 44px;
-    font-family: 'Montserrat';
-    font-weight: 400;
-}
-.services-content-details h2{
-    font-size: 44px;
-    background: transparent;
-    color: white;
-    font-family: 'Garamond';
-}
-.services-content-details h1{
-    font-size: 108px;
-    background: transparent;
-    color: white;
-    letter-spacing: .8rem;
-    font-family: 'Garamond';
-}
-.services-content-details p{
-    width: 500px;
-    color: white;
-}
-.services-content-details-btn{
-    background: transparent;
-}
-.services-content-details-btn > button{
-    background-color: #E0B973;
-    color: white;
-    padding: .5rem 2rem;
-    border-radius: 1rem;
-    border: none;
-} */
-
 .room-content{
     padding:4rem ;
 }
@@ -150,29 +71,6 @@
     font-weight: 700;
     font-size: 36px;
 }
-.title-card-services{
-    text-align: center;
-}
-.btn-services-card{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100px;
-}
-/* style BRAYAN*/
-.contenedor {
-    width: 100%;
-    height: 100%;
-    padding: 4rem 2rem;
-  }
-  .texto{
-   font-size: 100px;
-  }
-  .texto-contenido{
-   font-size: 30px;
-   text-shadow: 0cap;
-  }
-  /* style BRAYAN*/
 .title-habitaciones{
     text-align: center;
     font-size: 36px;
@@ -236,3 +134,5 @@
         margin-top: -1.2rem;
     }
 }
+
+/*# sourceMappingURL=styles-omar.css.map */
