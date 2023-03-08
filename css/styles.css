@@ -1,21 +1,25 @@
 a {
-  color: #f9f9f9;
-}
-
-h1 {
-  color: #09f8fc;
-}
-
-li {
-  color: brown;
-}
-
-h3 {
   color: #000000;
 }
 
+h1 {
+  color: #f40000;
+}
+
+li {
+  color: rgb(188, 8, 248);
+}
+
+h3 {
+  color: #e8d210;
+}
+
 nav {
-  color: #09f8fc;
+  background-color: #13a6e0;
+}
+
+.hot {
+  color: #f40000;
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,5 +40,14 @@ nav {
   }
   head {
     color: blueviolet;
+  }
+  .hot {
+    color: #e8d210;
+  }
+  .title-nav {
+    color: #000000;
+  }
+  .textfoot {
+    color: #f40000;
   }
 }/*# sourceMappingURL=styles.css.map */
