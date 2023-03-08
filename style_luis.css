@@ -4,7 +4,17 @@
 }
 
 .btn-test:hover {
-  background-color: red;
+  background-color: greenyellow;
+  color: white;
+}
+
+.btn-test2 {
+  background-color: black;
+  color: white;
+}
+
+.btn-test2:hover {
+  background-color: greenyellow;
   color: white;
 }
 
@@ -27,6 +37,16 @@
   }
   .btn-test:hover {
     background-color: red;
+    border: 1px solid white;
+    color: violet;
+  }
+  .btn-test2 {
+    background-color: black;
+    border: 1px solid white;
+    color: violet;
+  }
+  .btn-test2 {
+    background-color: black;
     border: 1px solid white;
     color: violet;
   }
