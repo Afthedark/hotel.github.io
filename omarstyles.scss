@@ -1,0 +1,21 @@
+$color-primario: #007bff;
+$color-parrafo:#38f5a3;
+$color-title:#0dcaf0;
+$p-padding:4rem 7rem;
+$p-font-size: 22px;
+$p-margin:0 auto;
+
+    
+span{
+    color: $color-primario;
+}
+p{
+    color:$color-parrafo;
+    font-size: $p-font-size;
+    padding: $p-padding;
+    margin: $p-margin;
+}
+
+h2{
+    color:$color-title ;
+}
