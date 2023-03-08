@@ -1,17 +1,33 @@
+.btn-test {
+  background-color: red;
+  color: white;
+}
+
+.btn-test:hover {
+  background-color: red;
+  color: white;
+}
+
 @media (max-width: 600px) {
   h2 {
     background-color: blueviolet;
-  }
-  h2 {
     color: aliceblue;
   }
   p {
     background-color: blueviolet;
-  }
-  p {
     color: white;
   }
   body {
     background-color: silver;
+  }
+  .btn-test {
+    background-color: black;
+    border: 1px solid white;
+    color: violet;
+  }
+  .btn-test:hover {
+    background-color: red;
+    border: 1px solid white;
+    color: violet;
   }
 }/*# sourceMappingURL=style_luis.css.map */
