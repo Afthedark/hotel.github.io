@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   
-  <link rel="stylesheet" href="style_luis.scss" />
+    <link rel="stylesheet" href="style_luis.css" />
 
   <!--NAVEGADOR-->
   <nav class="navbar navbar-expand-lg" style="background-color: rgb(51, 214, 243);">
@@ -49,42 +49,50 @@
 
 
   <!--CONTENIDO-->
+<br>
+<br>
+  
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-7">
+        <h2>Bienvenido a la pagina de contacto</h2>
+        <p>Usa el formulario de abajo para enviarnos un e-mail.</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-5">
+        <h2>Nuestro contacto directo</h2>
+        <p><strong>Direccion:</strong> Santa cruz, avenida Beni</p>
+        <p><strong>Telefono:</strong> 75689878 o puedes <a href="tel:+[75689878]" class="btn btn-success">Llamarnos</a>
+        </p> 
+        <p><strong>Email:</strong> hotel_california@gmail.com</p>
 
-
-
-
-  <header>
-    <h1>Contacto</h1>
-  </header>
-  <main>
-    <section class="contact-form">
-      <h2>Formulario de Contacto</h2>
-      <form action="#" method="POST">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required />
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required />
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-    <section class="contact-details">
-      <h2>Detalles de Contacto</h2>
-      <ul>
-        <li><i class="fa fa-envelope"></i> correo@example.com</li>
-        <li><i class="fa fa-phone"></i> +1 123-456-7890</li>
-      </ul>
-    </section>
-  </main>
-
- <!--CONTENIDO-->
-
-
-
-
+        <h2>Nuestra Ubicacion</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3900.7809634372866!2d-45.0038793!3d-12.127133899999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x934ab5cf0e25dea5%3A0x627f1049cd5bdf6!2sHotel%20California!5e0!3m2!1ses-419!2sbo!4v1678065517018!5m2!1ses-419!2sbo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+    </div>
+  </div>
+<br>
+<br>
 
   <!--CONTENIDO Footer-->
+
+
   <footer style="background-color: rgb(51, 214, 243);">
 
     <div class="contenedor">

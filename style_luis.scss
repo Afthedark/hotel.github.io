@@ -1,8 +1,22 @@
 // Small devices (landscape phones, 576px and up)
 
-h1{
-  color: blue;
-}
-@media (min-width: 576px) { 
 
- }
+
+@media (max-width: 600px) { 
+  h2 {
+    background-color: blueviolet;
+  }
+
+  h2 {
+    color: aliceblue;
+  }
+
+  p {
+    background-color: blueviolet;
+  }
+
+  p {
+    color: white;
+  }
+}
+
