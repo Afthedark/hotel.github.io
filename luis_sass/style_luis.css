@@ -1,64 +1,54 @@
-// Small devices (landscape phones, 576px and up)
-
 .btn-test {
   background-color: red;
   color: white;
 }
 
-.btn-test:hover{
+.btn-test:hover {
   background-color: greenyellow;
   color: white;
 }
-
 
 .btn-test2 {
   background-color: black;
   color: white;
 }
 
-.btn-test2:hover{
+.btn-test2:hover {
   background-color: greenyellow;
   color: white;
 }
 
-@media (max-width: 600px) { 
+body {
+  background-color: silver;
+}
+
+@media (max-width: 600px) {
   h2 {
     background-color: blueviolet;
-
     color: aliceblue;
   }
-
   p {
     background-color: blueviolet;
-
     color: white;
   }
-
-  body{
-    background-color: silver;
-  }
-  .btn-test{
+  .btn-test {
     background-color: black;
     border: 1px solid white;
     color: violet;
   }
-  .btn-test:hover{
+  .btn-test:hover {
     background-color: red;
     border: 1px solid white;
     color: violet;
   }
-
-  .btn-test2{
+  .btn-test2 {
     background-color: black;
     border: 1px solid white;
     color: violet;
   }
-  
-  .btn-test2{
+  .btn-test2 {
     background-color: black;
     border: 1px solid white;
     color: violet;
   }
-
-}
-
+}/*# sourceMappingURL=style_luis.css.map */
