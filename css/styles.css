@@ -1,11 +1,40 @@
 a {
-  color: #18dfbe;
+  color: #f9f9f9;
 }
 
 h1 {
-  color: #d81f1f;
+  color: #09f8fc;
+}
+
+li {
+  color: brown;
 }
 
 h3 {
-  color: #10b938;
-} /*# sourceMappingURL=styles.css.map */
+  color: #000000;
+}
+
+nav {
+  color: #09f8fc;
+}
+
+@media only screen and (max-width: 600px) {
+  a {
+    color: rgb(211, 18, 18);
+  }
+  font {
+    color: rgb(0, 46, 139);
+  }
+  nav {
+    background-color: rgb(162, 238, 20);
+  }
+  ul {
+    color: darkorchid;
+  }
+  span {
+    color: green;
+  }
+  head {
+    color: blueviolet;
+  }
+}/*# sourceMappingURL=styles.css.map */
