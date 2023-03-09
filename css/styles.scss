@@ -22,33 +22,29 @@ nav{
 
   @media only screen and (max-width: 600px) {
     a{
-      color:#DAF7A6  
-      ;
+      color:#DAF7A6;//sin usar
     }
     font{
-      color: rgb(0, 46, 139);
+      color: rgb(237, 139, 10);//color del texto de pie de pagina
     }
     nav{
       background-color:blueviolet;//color de fondo barra de navegacion
     }
-    ul{
-      color: darkorchid;
-    }
+    
     span{
-      color: green;
+      color: rgb(4, 154, 152); //color del texto de final de pagina
     }
-    head{
-      color: blueviolet;
-    }
+    
     .hot{
       color: #e8d210;//barra de navegacion HOTEL CALIFORNIA
     }
     .title-nav{
-      color: #000000;
+      color: #b6f607;//texto menu nav
     }
     .textfoot{
-      color: #f40000;
+      color: #f40000;//color del texto de final de pagina
     }
+    
   }
   
   

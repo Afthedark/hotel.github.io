@@ -27,25 +27,19 @@ nav {
     color: #DAF7A6;
   }
   font {
-    color: rgb(0, 46, 139);
+    color: rgb(237, 139, 10);
   }
   nav {
     background-color: blueviolet;
   }
-  ul {
-    color: darkorchid;
-  }
   span {
-    color: green;
-  }
-  head {
-    color: blueviolet;
+    color: rgb(4, 154, 152);
   }
   .hot {
     color: #e8d210;
   }
   .title-nav {
-    color: #000000;
+    color: #b6f607;
   }
   .textfoot {
     color: #f40000;
