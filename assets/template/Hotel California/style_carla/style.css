@@ -1,0 +1,38 @@
+nav {
+  background-color: aqua;
+}
+
+footer {
+  background-color: aqua;
+}
+
+@media only screen and (max-width: 600px) {
+  font {
+    color: rgba(68, 40, 3, 0.7960784314);
+  }
+  h1 {
+    color: maroon;
+  }
+  h5 {
+    color: #065e37;
+  }
+  nav {
+    background-color: #257e56;
+  }
+  footer {
+    background-color: #257e56;
+  }
+  .card-body h5 {
+    color: #065e37;
+  }
+  .card-body h4 {
+    color: #065e37;
+  }
+  .card-body p {
+    color: maroon;
+  }
+  .card-body {
+    background-color: rgb(255, 185, 79);
+    border: 4 px rgb(151, 96, 13);
+  }
+}/*# sourceMappingURL=style.css.map */

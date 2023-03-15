@@ -1,0 +1,47 @@
+a {
+  color: #000000;
+}
+
+h1 {
+  color: #f40000;
+}
+
+li {
+  color: rgb(188, 8, 248);
+}
+
+h3 {
+  color: #e8d210;
+}
+
+nav {
+  background-color: #13a6e0;
+}
+
+.hot {
+  color: #f40000;
+}
+
+@media only screen and (max-width: 600px) {
+  a {
+    color: #DAF7A6;
+  }
+  font {
+    color: rgb(237, 139, 10);
+  }
+  nav {
+    background-color: blueviolet;
+  }
+  span {
+    color: rgb(4, 154, 152);
+  }
+  .hot {
+    color: #e8d210;
+  }
+  .title-nav {
+    color: #b6f607;
+  }
+  .textfoot {
+    color: #f40000;
+  }
+}/*# sourceMappingURL=styles.css.map */

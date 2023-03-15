@@ -1,0 +1,50 @@
+
+a {
+  color: #000000;
+}
+
+h1 {
+  color: #f40000;
+}
+li{
+  color: rgb(188, 8, 248);
+}
+
+h3 {
+  color: #e8d210;
+}
+nav{
+  background-color:  #13a6e0;
+}
+.hot{
+  color: #f40000;
+}
+
+  @media only screen and (max-width: 600px) {
+    a{
+      color:#DAF7A6;//sin usar
+    }
+    font{
+      color: rgb(237, 139, 10);//color del texto de pie de pagina
+    }
+    nav{
+      background-color:blueviolet;//color de fondo barra de navegacion
+    }
+    
+    span{
+      color: rgb(4, 154, 152); //color del texto de final de pagina
+    }
+    
+    .hot{
+      color: #e8d210;//barra de navegacion HOTEL CALIFORNIA
+    }
+    .title-nav{
+      color: #b6f607;//texto menu nav
+    }
+    .textfoot{
+      color: #f40000;//color del texto de final de pagina
+    }
+    
+  }
+  
+  

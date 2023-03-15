@@ -1,0 +1,58 @@
+$color_titulo: #4a4e52;
+$color_texto:#065e37;
+$color_footeer:#442803cb;
+$nav:#257e56;
+$color_p:#f39214cb;
+
+ nav{
+  background-color: aqua;
+ }
+ footer{
+  background-color: aqua;
+ }
+
+@media only screen and (max-width: 600px) {
+    font{
+    color: $color_footeer;
+  }
+  h1{
+    color:maroon;
+  }
+  h5{
+    color:$color_texto;
+  }
+  nav{
+    background-color: $nav; 
+  }
+  footer{
+    background-color: $nav;
+  }
+
+  //anidacion
+  .card-body{
+    h5{
+      color: $color_texto;
+    }
+    h4{
+      color: $color_texto;
+    }
+    p{
+      color:maroon;
+    }
+
+  }
+
+  //mixins
+  @mixin caja_personalizada($fondo:white){
+    background-color:rgb(255, 185, 79);
+    border: 4 px rgb(151, 96, 13);
+  }
+  .card-body{
+    @include caja_personalizada();
+  }
+   
+}
+
+
+
+

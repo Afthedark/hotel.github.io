@@ -1,0 +1,29 @@
+@use 'variables'
+
+@mixin container
+  max-width: variables.$container-width
+  margin: 0 auto
+  padding: 1.7rem 0
+
+@mixin flex-center($gap)
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: $gap
+
+@mixin bg-image($image)
+  background-image: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, 0.3)), url('Pablo/img/#{$image}')
+  background-size: 100%
+  background-position: center
+  background-repeat: no-repeat
+  filter: grayscale(80%)
+  transition: all .6s
+
+  &:hover
+    background-size: 120%
+    filter: grayscale(0)
+  
+@mixin mobile
+  @media(max-width: 28.125rem) //450px
+    @content
+    
